@@ -21,8 +21,8 @@ i  emulators: Starting emulators: dataconnect
    - Error is raised
 
 ```
-[debug] [2025-02-14T18:24:40.001Z] Importing from /Users/USER_NAME/Desktop/firebase-tools/issues/8219/Users/USER_NAME/Desktop/firebase-tools/issues/8219/saved_data/dataconnect_export/postgres.tar.gz
-[debug] [2025-02-14T18:24:40.002Z] Error: ENOENT: no such file or directory, open '/Users/USER_NAME/Desktop/firebase-tools/issues/8219/Users/USER_NAME/Desktop/firebase-tools/issues/8219/saved_data/dataconnect_export/postgres.tar.gz'
+[debug] [2025-02-14T18:29:19.516Z] Importing from /Users/USER_NAME/Desktop/firebase-tools/issues/8219/Users/USER_NAME/Desktop/firebase-tools/issues/8219/saved_data/dataconnect_export/postgres.tar.gz
+[debug] [2025-02-14T18:29:19.517Z] Error: ENOENT: no such file or directory, open '/Users/USER_NAME/Desktop/firebase-tools/issues/8219/Users/USER_NAME/Desktop/firebase-tools/issues/8219/saved_data/dataconnect_export/postgres.tar.gz'
     at Object.openSync (node:fs:562:18)
     at Object.readFileSync (node:fs:446:35)
     at PostgresServer.getDb (/Users/USER_NAME/Desktop/firebase-tools/git-clone/firebase-tools/lib/emulator/dataconnect/pgliteServer.js:94:31)
