@@ -1,0 +1,4 @@
+mutation CreateMovie($title: String!, $genre: String!, $imageUrl: String!)
+@auth(level: USER_EMAIL_VERIFIED) {
+  movie_insert(data: { title: $title, genre: $genre, imageUrl: $imageUrl })
+}
